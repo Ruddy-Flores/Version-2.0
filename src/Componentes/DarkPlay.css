@@ -1,0 +1,56 @@
+.Property-Card{
+    background-color: hsl(235, 46%, 20%);
+    margin-top: -20px;
+    border-radius: 12px;
+    padding: 30px;
+    margin-left: 15px;
+    height: 50px;
+    width: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.Row{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;  
+}
+.Title{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.Points{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Point{
+    background-color: hsl(236, 100%, 87%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0.2rem;
+}
+.Row-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.Hours{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+.Description{
+    color: hsl(236, 100%, 87%);
+    font-size: 12px;
+}

@@ -1,0 +1,63 @@
+.ProfileCard{
+    width: 93%;
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.Menu-Card{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 12px;    
+}
+.Card-Report{
+    background-color: hsl(244, 87%, 55%);
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Card-Report img {
+    width: 23%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.Report{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+    margin-left: 13px;
+    gap: 0rem;
+}
+p{
+    color: hsl(236, 100%, 87%);
+    font-size: 0.9rem;
+}
+.Name{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-top: -10px;
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.menu-link{
+    color: hsl(235, 45%, 61%);
+    font-size: 1rem;
+    cursor: pointer;
+}
+&:hover{
+    color: white;
+}
+.menu-active{
+    color: white;
+}

@@ -1,0 +1,12 @@
+.ColorExercise{
+    background-color: hsl(145, 58%, 55%);
+    height: 60px;
+    width: 325px;
+    margin: auto;
+    border-radius: 12px;
+    background-image: url(../assets/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    margin-top: 0px;
+    align-items: center;
+}
